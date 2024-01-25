@@ -1,0 +1,5 @@
+venv
+_credenciales.py
+__pycache__
+*.sqlite
+downloads
