@@ -1,3 +1,15 @@
+# LOL! -------------------------------------
+import os
+
+# Verificar si el archivo _credenciales.py existe, y crearlo si no.
+if not os.path.exists("_credenciales.py"):
+    with open("_credenciales.py", "w") as f:
+        f.write("username=None\npassword=None\n")
+    print("Archivo '_credenciales.py' creado. Por favor, rellena tu usuario y contraseña.")
+# -------------------------------------------
+
+
+
 import requests
 from bs4 import BeautifulSoup
 import _credenciales
